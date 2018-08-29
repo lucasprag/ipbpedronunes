@@ -4,6 +4,7 @@ title: A Chuva da Fé
 date: 2017-11-27
 categories: destaque escola
 brief: Em uma zona rural havia uma igreja.
+author: lucas
 ---
 
 <div class="text-center">

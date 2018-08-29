@@ -1,0 +1,22 @@
+{% assign author = site.authors[include.author] %}
+
+<div class="include-author list-group mt-5">
+  <h6>Sobre o autor:</h6>
+
+  <div class="list-group-item flex-column">
+    <div class="d-flex">
+      <img src="{{ site.baseurl }}/assets/images/authors/{{ author.photo }}"
+           alt="{{ author.name }}"
+           class="rounded" style="width: 100px; height: 100px" />
+
+      <h5 class="px-5">
+        {{ author.name }}
+
+        <br>
+        <small>
+          {{ author.bio }}
+        </small>
+      </h5>
+    </div>
+  </div>
+</div>

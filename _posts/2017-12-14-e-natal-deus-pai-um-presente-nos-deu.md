@@ -4,6 +4,7 @@ title: É natal, Deus filho foi dado a nós. É natal, Deus Pai um presente nos 
 date: 2017-12-14
 categories: destaque pastor
 brief: Jesus é o presente de Deus à humanidade.
+author: luiz
 ---
 
 <img src="{{ site.baseurl }}/assets/images/posts/e-natal-deus-pai-um-presente-nos-deu.jpg" alt="{{ post.title }}" style="width: 100%" />
