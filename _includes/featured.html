@@ -2,6 +2,9 @@
   <div class="card-body">
     <h5 class="card-title">Destaques</h5>
 
-    {% include posts-home.html category="destaque" %}
+    {% for post in site.categories.destaque limit:3 %}
+      {% include posts-card.html %}
+    {% endfor %}
+
   </div>
 </div>

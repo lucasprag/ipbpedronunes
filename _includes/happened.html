@@ -2,6 +2,8 @@
   <div class="card-body">
     <h5 class="card-title">Aconteceu na igreja</h5>
 
-    {% include posts-home.html category="aconteceu" %}
+    {% for post in site.categories.aconteceu limit:3 %}
+      {% include posts-card.html %}
+    {% endfor %}
   </div>
 </div>
