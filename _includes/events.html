@@ -1,10 +1,9 @@
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Eventos</h5>
-
-    {% for post in site.categories.eventos limit:3 %}
-      {% include posts-card.html %}
-    {% endfor %}
-
+<div class="card text-white bg-color3">
+  <div class="card-header">
+    Eventos
   </div>
+
+  {% for post in site.categories.eventos limit:3 %}
+    {% include posts-card.html %}
+  {% endfor %}
 </div>

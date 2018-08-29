@@ -1,9 +1,9 @@
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Aconteceu na igreja</h5>
-
-    {% for post in site.categories.aconteceu limit:3 %}
-      {% include posts-card.html %}
-    {% endfor %}
+<div class="card text-white bg-color3">
+  <div class="card-header">
+    Aconteceu na igreja
   </div>
+
+  {% for post in site.categories.aconteceu limit:3 %}
+    {% include posts-card.html %}
+  {% endfor %}
 </div>

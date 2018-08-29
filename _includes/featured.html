@@ -1,10 +1,9 @@
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Destaques</h5>
-
-    {% for post in site.categories.destaque limit:3 %}
-      {% include posts-card.html %}
-    {% endfor %}
-
+<div class="card text-white bg-color3">
+  <div class="card-header">
+    Destaques
   </div>
+
+  {% for post in site.categories.destaque limit:3 %}
+    {% include posts-card.html %}
+  {% endfor %}
 </div>

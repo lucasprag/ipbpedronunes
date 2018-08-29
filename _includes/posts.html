@@ -2,44 +2,52 @@
   {% if include.category %}
     {% if post.categories contains include.category %}
       <article class="include-posts">
-        <h3>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h3>
 
-        <hr>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h5>
 
-        <p class="mb-2">
-          {{ post.content | strip_html | truncatewords: 50 }}
-        </p>
+            <p class="card-text">
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </p>
 
-        <a href="{{ post.url | prepend: site.baseurl }}"
-          class="btn btn-dark btn-purple active"
-          role="button">
-          Veja mais
-        </a>
+            <a href="{{ post.url | prepend: site.baseurl }}"
+               class="btn btn-dark btn-purple active"
+               role="button">
+              Veja mais
+            </a>
+          </div>
+        </div>
+
       </article>
     {% endif %}
   {% else %}
     <article class="include-posts">
-      <h3>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </h3>
 
-      <hr>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </h5>
 
-      <p class="mb-2">
-        {{ post.content | strip_html | truncatewords: 50 }}
-      </p>
+          <p class="card-text">
+          {{ post.content | strip_html | truncatewords: 50 }}
+          </p>
 
-      <a href="{{ post.url | prepend: site.baseurl }}"
-        class="btn btn-dark btn-purple active"
-        role="button">
-        Veja mais
-      </a>
+          <a href="{{ post.url | prepend: site.baseurl }}"
+             class="btn btn-dark btn-purple active"
+             role="button">
+            Veja mais
+          </a>
+        </div>
+      </div>
+
     </article>
   {% endif %}
 {% endfor %}
