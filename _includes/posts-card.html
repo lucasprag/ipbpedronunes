@@ -10,6 +10,8 @@
       {{ post.brief }}
     </p>
 
-    <small>3 days ago</small>
+    <small>
+      {{ post.date | date: "%d/%m/%Y" }}
+    </small>
   </a>
 </div>
