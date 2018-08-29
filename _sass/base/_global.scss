@@ -1,9 +1,11 @@
 a {
   color: $color2;
+  text-decoration: none;
 }
 
 a:hover, a:active {
   color: $color4;
+  text-decoration: none;
 }
 
 p {
@@ -11,10 +13,14 @@ p {
 }
 
 body {
-  border-top: 3px solid $color1;
+  //border-top: 3px solid $color1;
   border-bottom: 3px solid $color1;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $color1;
+}
+
+.btn-purple {
+  background-color: $color2 !important;
 }
