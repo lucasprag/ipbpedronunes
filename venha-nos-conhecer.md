@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Venha nos conhecer
+title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
 ---
 
 <div class="card">

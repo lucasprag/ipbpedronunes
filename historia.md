@@ -1,6 +1,6 @@
 ---
 layout: page
-title: História
+title: <i class="fas fa-book"></i> História
 ---
 
 O trabalho presbiteriano no Jd. Pedro José Nunes teve início na residência do Pb. Oliveira Eller, no dia 05 de dezembro de 1966, com uma escola dominical às 15:00hs, por iniciativa da UPH da IP. de Ermelino Matarazzo, sendo responsável o Pb. Joaquim Gonzaga.
