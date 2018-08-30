@@ -2,7 +2,7 @@
 layout: post
 title: Dia dos pais
 date: 2018-08-13
-categories: destaque eventos
+categories: aconteceu
 brief: A UPA e a UCP fizeram uma homenagem aos pais
 author: lucas
 ---
