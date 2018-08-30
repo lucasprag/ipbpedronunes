@@ -57,7 +57,7 @@ title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
   </div>
 
   <div class="col-12 col-md-4">
-    <a href="waze://?ll=-23.5049538,-46.4642639&amp;navigate=yes" target="_blank">
+    <a href="waze://?ll=-23.504742377403307,-46.461954116821296;navigate=yes" target="_blank">
       <img class="float-right" src="{{ site.baseurl }}/assets/images/waze.png" alt="Clique e venha seguindo o Waze" width="100%">
     </a>
   </div>
