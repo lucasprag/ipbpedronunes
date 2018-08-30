@@ -20,3 +20,5 @@ Pela graça de Deus, e contando com a preciosa cooperação das Igreja de Ermeli
   </p>
 </blockquote>
 
+
+{% include venha-nos-conhecer.html %}
