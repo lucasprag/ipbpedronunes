@@ -21,7 +21,7 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - cp ./public/3TQDcS0aqat3JJS3YIx5nAyqgknqjfm_n5c3DuiSnPk.TfcYkRMGJmAIGD8_iBXTt-N66Oh6qAM57HUoAoDkxvQ.html ./public/3TQDcS0aqat3JJS3YIx5nAyqgknqjfm_n5c3DuiSnPk.TfcYkRMGJmAIGD8_iBXTt-N66Oh6qAM57HUoAoDkxvQ
+  - cp ./public/.well-known/acme-challenge/3TQDcS0aqat3JJS3YIx5nAyqgknqjfm_n5c3DuiSnPk.html ./public/.well-known/acme-challenge/3TQDcS0aqat3JJS3YIx5nAyqgknqjfm_n5c3DuiSnPk
   - cp ./public/.well-known/acme-challenge/7KtJzn6sKagmhhc3QRYlqzNonL3cWy-kZwKrOxnF5BI.html ./public/.well-known/acme-challenge/7KtJzn6sKagmhhc3QRYlqzNonL3cWy-kZwKrOxnF5BI
   artifacts:
     paths:
