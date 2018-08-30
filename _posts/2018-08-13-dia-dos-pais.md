@@ -2,9 +2,10 @@
 layout: post
 title: Dia dos pais
 date: 2018-08-13
-categories: aconteceu
+categories: aconteceu photos
 brief: A UPA e a UCP fizeram uma homenagem aos pais
 author: lucas
+thumbnail: dia-dos-pais.jpg
 ---
 
 A UPA e a UCP fizeram uma homenagem aos da igreja com um lindo jogral e muitos presentes.
