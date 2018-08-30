@@ -57,7 +57,7 @@ title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
   </div>
 
   <div class="col-12 col-md-4">
-    <a href="waze://?q=Rua%20Caramboleira,%20175%20-%20Jardim%20Pedro%20Jos%C3%A9%20Nunes,%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo,%2008061-310;navigate=yes" target="_blank">
+    <a href="waze://?q=Rua%20Caramboleira,%20175,%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo,%2008061-310;navigate=yes" target="_blank">
       <img class="float-right" src="{{ site.baseurl }}/assets/images/waze.png" alt="Clique e venha seguindo o Waze" width="100%">
     </a>
   </div>
