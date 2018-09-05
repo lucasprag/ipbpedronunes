@@ -1,15 +1,16 @@
 title: IPB Pedro Nunes
 email: your-email@example.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Bem-vindo(a) ao site da Igreja Presbiteriana do Brasil de Pedro Nunes!
+  Nós convidamos você a se juntar a nós para aprender sobre a palavra de Deus.
+lang: pt_BR
 baseurl: ""
 url: "https://ipbpedronunes.org"
 
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 sass:
   sass_dir: _sass
@@ -35,3 +36,9 @@ social:
   instagram: https://www.instagram.com/ipbpedronunesorg/
   facebook: https://www.facebook.com/IpbPedroNunes/
 
+# SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/ipbpedronunes.jpg
