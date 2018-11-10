@@ -10,7 +10,7 @@ title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
     </h5>
 
     <p class="card-text">
-      Escola Dominical às 9h30min e culto às 19h
+      Escola Dominical às 9h30min e culto às 19h.
     </p>
   </div>
 </div>
@@ -24,7 +24,7 @@ title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
     </h5>
 
     <p class="card-text">
-      Reunião de Oração das 20h às 21h
+      Reunião de Oração das 20h às 21h.
     </p>
   </div>
 </div>
@@ -38,7 +38,7 @@ title: <i class="fas fa-map-marked-alt"></i> Venha nos conhecer
     </h5>
 
     <p class="card-text">
-      Estudo Bíblico das 20h às 21h
+      Estudo Bíblico das 20h às 21h.
     </p>
   </div>
 </div>
