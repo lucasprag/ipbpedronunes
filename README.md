@@ -38,6 +38,22 @@ Depois disso o gitlab vai fazer o build to site (ele vai executar algo como `bun
 
 Depois que o build terminar o site vai estar no ar e você pode verificar no [ipbpedronunes.org](https://ipbpedronunes.org).
 
+### GIT
 
+Você pode testar e modificar à vontade, mas se você quiser voltar ao que estava antes das modificações você pode usar esse comando:
 
+```
+git checkout .
+```
 
+É sempre bom sempre depois de commitar você executar esse comando para puchar as modificações novas do servidor para a sua máquina:
+
+```
+git pull origin master
+```
+
+E depois você pode então executar
+
+```
+git push origin master
+```
