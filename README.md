@@ -9,7 +9,7 @@ Esse é um site estático feito com `jekyll`.
 Também conhecidas como ruby `gems`. Antes você precisa instalar a gem `bundler` para gerenciar as dependências com esse comando:
 
 ```
-gem install bunlder
+gem install bundler
 ```
 
 E para instalar as dependências:
