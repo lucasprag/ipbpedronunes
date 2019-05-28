@@ -1,53 +1,25 @@
-<div class="card text-white bg-color3">
-  <div class="card-header">
+<div class="card bg-color3">
+  <div class="card-header text-white">
     <i class="fas fa-calendar-alt"></i> Agenda
   </div>
 
-  <div class="list-group list-group-flush text-gray">
 
-    <ul class="list-group">
-      <li class="list-group-item">
-        22/09 - Maratona Bíblica
+  <div class="posts-card list-group list-group-flush bg-white">
+
+    {% for item in site.data.agenda %}
+
+    <div class="card-header bg-white">
+      <h5 class="mb-0 text-color1">
+        {{ item.month }}
+      </h5>
+    </div>
+
+    {% for line in item.items %}
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{line}}
       </li>
+    {% endfor %}
 
-      <li class="list-group-item">
-        ??/10 - Ação Social
-      </li>
-
-      <li class="list-group-item">
-        06/10 - Cantina (UPA)
-      </li>
-
-      <li class="list-group-item">
-        12/10 - Dia das Crianças
-      </li>
-
-      <li class="list-group-item">
-        27/10 - Maratona Bíblica
-      </li>
-
-      <li class="list-group-item">
-        10/11 - Confraternização (UPA)
-      </li>
-
-      <li class="list-group-item">
-        24/11 - Culto de Aniversário UPA/Aymoré
-      </li>
-
-      <li class="list-group-item">
-        09/12 - Culto das Primícias
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="list-group list-group-flush">
-    <a href="{{ site.baseurl }}/agenda.html"
-       class="list-group-item list-group-item-action flex-column align-items-start">
-
-      <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-2">Ver mais <i class="fas fa-plus-square"></i></h5>
-      </div>
-    </a>
+    {% endfor %}
   </div>
 </div>

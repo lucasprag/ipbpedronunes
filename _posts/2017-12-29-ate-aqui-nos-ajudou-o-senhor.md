@@ -3,7 +3,7 @@ layout: post
 title: Até Aqui Nos Ajudou o Senhor
 date: 2017-12-29
 categories: mensagens
-brief: "Até aqui nos ajudou o SENHOR. (1Samuel 7:12)"
+brief: "(1Samuel 7:12)"
 author: milton
 ---
 

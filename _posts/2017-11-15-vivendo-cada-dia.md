@@ -3,7 +3,7 @@ layout: post
 title: Vivendo Cada Dia
 date: 2017-11-15
 categories: mensagens
-brief: Todos os dias do aflito são maus, mas a alegria do coração e banquete contínuo. Provérbios 15:15
+brief: Provérbios 15:15
 author: milton
 ---
 

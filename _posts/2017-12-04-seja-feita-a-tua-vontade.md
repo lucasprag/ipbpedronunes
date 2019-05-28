@@ -3,7 +3,7 @@ layout: post
 title: Seja Feita a Tua Vontade
 date: 2017-12-04
 categories: mensagens
-brief: Sabe aquele momento em que nós temos vontade de explodir ou de jogar a toalha, abandonar tudo e fugir para algum lugar bem longe?
+brief: Sabe aquele momento em que nós temos vontade de explodir ou de jogar a toalha?
 author: milton
 ---
 

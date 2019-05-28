@@ -3,7 +3,7 @@ layout: post
 title: Vidas Transformadas São Vidas Que Transformam
 date: 2018-01-16
 categories: mensagens
-brief: De acordo com o Rev. Ricardo Agreste (pastor da IP Chácara Primavera em Campinas), vidas que são transformadas pelo evangelho são vidas que se tornam transformadoras.
+brief: Vidas que são transformadas pelo evangelho são vidas que...
 author: luiz
 ---
 

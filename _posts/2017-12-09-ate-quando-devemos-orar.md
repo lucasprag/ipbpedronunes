@@ -3,7 +3,7 @@ layout: post
 title: Até Quando Devemos Orar
 date: 2017-12-09
 categories: mensagens
-brief: Frequentemente Deus se mostra demorado em responder à oração. Temos várias ocorrências disso nas Escrituras
+brief: Frequentemente Deus se mostra demorado em responder à oração...
 author: milton
 ---
 
