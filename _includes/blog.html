@@ -1,52 +1,54 @@
-<div class="card">
+<div class="card bg-color3">
   <div class="card-header text-white bg-color3">
     <i class="fas fa-newspaper"></i> Blog
   </div>
 
-  {% for post in site.posts limit:11 %}
-      <div class="card" style="border: none;">
-        <div class="card-body">
+  <div class="bg-white">
+    {% for post in site.posts limit:11 %}
+        <div class="card" style="border: none;">
+          <div class="card-body">
 
-          <div class="row">
+            <div class="row">
 
-            {% if post.thumbnail %}
+              {% if post.thumbnail %}
 
-            <div class="col-4">
-              <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
-            </div>
+              <div class="col-4">
+                <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+              </div>
 
-            <div class="col-8">
+              <div class="col-8">
 
-            {% else %}
+              {% else %}
 
-            <div class="col">
+              <div class="col">
 
-            {% endif %}
+              {% endif %}
 
-              <h5 class="card-title">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                  {{ post.title }}
+                <h5 class="card-title">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                  </a>
+                </h5>
+
+                <p class="card-text">
+                {{ post.brief }}
+                </p>
+
+                <a href="{{ post.url | prepend: site.baseurl }}"
+                   class="btn btn-dark btn-purple active"
+                   role="button">
+                  Veja mais
                 </a>
-              </h5>
 
-              <p class="card-text">
-              {{ post.brief }}
-              </p>
-
-              <a href="{{ post.url | prepend: site.baseurl }}"
-                 class="btn btn-dark btn-purple active"
-                 role="button">
-                Veja mais
-              </a>
-
+              </div>
             </div>
+
           </div>
-
         </div>
-      </div>
 
-      <hr class="my-1">
-  {% endfor %}
+        <hr class="my-1">
+    {% endfor %}
+  </div>
 
   <div class="list-group list-group-flush">
     <a href="{{ site.baseurl }}/blog.html"
