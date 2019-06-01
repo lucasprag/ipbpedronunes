@@ -32,7 +32,12 @@
 
                 <p class="card-text">
                 {{ post.brief }}
+
+                <br>
+                  <small>{{ post.date | date: "%d/%m/%Y" }}</small>
                 </p>
+
+
 
                 <a href="{{ post.url | prepend: site.baseurl }}"
                    class="btn btn-dark btn-purple active"
