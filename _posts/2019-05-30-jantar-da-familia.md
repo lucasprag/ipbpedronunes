@@ -15,9 +15,9 @@ thumbnail: jantar-da-familia.jpg
 
 <div class="card-columns">
 
-{% for i in (1..11) %}
+{% for i in (1..16) %}
   <div class="card">
-    <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/jantar-da-familia-{{forloop.index}}.jpeg" alt="{{ page.title }}" />
+    <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/jantar-da-familia/jantar-da-familia-{{forloop.index}}.jpeg" alt="{{ page.title }}" />
   </div>
 {% endfor %}
 
