@@ -39,7 +39,7 @@ thumbnail: dia-das-maes.jpg
 
 <div class="row my-5">
   <div class="col text-center">
- 
+
   <div class="card">
     <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/dia-das-maes/louvor.jpeg" alt="Louvor da IPB de Pedro Nunes" />
   </div>
