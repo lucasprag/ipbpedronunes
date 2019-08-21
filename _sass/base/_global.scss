@@ -1,9 +1,9 @@
-a {
+a, a.page-link {
   color: $color2;
   text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover, a:active, a.page-link:hover, a.page-link:active {
   color: $color4;
   text-decoration: none;
 }
@@ -13,12 +13,12 @@ p {
 }
 
 body {
-  //border-top: 3px solid $color1;
+  // border-top: 3px solid $color1;
   border-bottom: 3px solid $color1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color1;
+  color: $color2;
 }
 
 .btn-purple {

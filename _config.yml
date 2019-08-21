@@ -7,10 +7,14 @@ lang: pt_BR
 baseurl: ""
 url: "https://ipbpedronunes.org"
 
+paginate: 8
+paginate_path: "/page/:num/"
+
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 sass:
   sass_dir: _sass

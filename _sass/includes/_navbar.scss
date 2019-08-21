@@ -1,3 +1,11 @@
 .navbar {
   border-bottom: 3px solid $color1;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: $color1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $color2;
+}
