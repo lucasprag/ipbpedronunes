@@ -3,13 +3,13 @@ layout: post
 title: Ordenação e investidura de presbiteros e diáconos eleitos
 date: 2019-08-20
 categories: aconteceu
-brief: A Congregação Aymoré ordenou novos presbíteros e diáconos no último domingo, veja algumas fotos.
+brief: A IPB de Pedro Nunes ordenou novos presbíteros e diáconos no último domingo, veja algumas fotos.
 author: luiz
 thumbnail: ordenacao-aymore.jpg
 ---
 
 <p class="text-center mb-5">
-  A Congregação Aymoré ordenou novos presbíteros e diáconos no último domingo, veja algumas fotos.
+  A IPB de Pedro Nunes ordenou novos presbíteros e diáconos no último domingo, veja algumas fotos.
 </p>
 
 
