@@ -1,7 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
-    <a class="navbar-brand col-8 col-md-4" href="/">
-      <img src="{{ site.baseurl }}/assets/images/ipbpedronunes.png" alt="{{ site.title }}" style="width: 100%" />
+    <a class="navbar-brand col-2 col-md-4 p-3" href="/">
+      <img src="{{ site.baseurl }}/assets/images/ipb-white.png" alt="{{ site.title }}" class="logo-ipb-image" />
+      <span class="logo-ipb-text ml-3 align-middle">
+        IPB de Pedro Nunes
+      </span>
     </a>
 
     <button
@@ -19,35 +22,35 @@
     <div class="navbar-collapse collapse justify-content-between" id="navbar">
       <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item">
-          <a class="nav-link" href="/">Início</a>
+        <li class="nav-item mx-1">
+          <a class="nav-link px-3 {% if page.url == '/' %}active{% endif %}" href="/">
+            Início
+          </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/nos-acreditamos.html">Nós acreditamos</a>
+        <li class="nav-item mx-1">
+          <a class="nav-link px-3 {% if page.url == '/nos-acreditamos.html' %}active{% endif %}" href="/nos-acreditamos.html">
+            Nós Acreditamos
+          </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/historia.html">História</a>
+        <li class="nav-item mx-1">
+          <a class="nav-link px-3 {% if page.url == '/historia.html' %}active{% endif %}" href="/historia.html">
+            História
+          </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/aniversariantes.html">Aniversariantes</a>
+        <li class="nav-item mx-1">
+          <a class="nav-link px-3 {% if page.url == '/aniversariantes.html' %}active{% endif %}" href="/aniversariantes.html">
+            Aniversariantes
+          </a>
         </li>
 
-        <!--<li class="nav-item dropdown">-->
-          <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-            <!--Departamentos-->
-          <!--</a>-->
-          <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-            <!--<a class="dropdown-item" href="/saf.html">SAF</a>-->
-            <!--<a class="dropdown-item" href="/upa.html">UPA</a>-->
-            <!--<a class="dropdown-item" href="/infantil.html">Infantil (UCP)</a>-->
-            <!--<a class="dropdown-item" href="/hineni.html">Grupo Hineni</a>-->
-            <!--<a class="dropdown-item" href="/escola-dominical.html">Escola Dominical</a>-->
-          <!--</div>-->
-        <!--</li>-->
-
+        <li class="nav-item mx-1">
+          <a class="nav-link px-3 {% if page.url == '/agenda.html' %}active{% endif %}" href="/agenda.html">
+            Agenda
+          </a>
+        </li>
       </ul>
     </div>
   </div>

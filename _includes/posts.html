@@ -2,101 +2,12 @@
   {% if include.category %}
     {% if post.categories contains include.category %}
       <article class="include-posts">
-
-        <div class="card">
-          <div class="card-body">
-
-            <div class="row">
-
-              {% if post.thumbnail %}
-
-              <div class="col-4">
-                <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
-              </div>
-
-              <div class="col-8">
-
-              {% else %}
-
-              <div class="col">
-
-              {% endif %}
-
-                <h5 class="card-title">
-                  <a href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                  </a>
-                </h5>
-
-                <p class="card-text">
-                  {{ post.content | strip_html | truncatewords: 50 }}
-
-                  <br>
-                  <small>{{ post.date | date: "%d/%m/%Y" }}</small>
-                </p>
-
-                <a href="{{ post.url | prepend: site.baseurl }}"
-                   class="btn btn-dark btn-purple active"
-                   role="button">
-                  Veja mais
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-
+        {% include post-card.html post=post %}
       </article>
     {% endif %}
   {% else %}
     <article class="include-posts">
-
-      <div class="card">
-        <div class="card-body">
-
-          <div class="row">
-
-          {% if post.thumbnail %}
-
-          <div class="col-4">
-            <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
-          </div>
-
-          <div class="col-8">
-
-          {% else %}
-
-          <div class="col">
-
-          {% endif %}
-
-
-            <h5 class="card-title">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h5>
-
-            <p class="card-text">
-            {{ post.brief }}
-
-            <br>
-            <small>{{ post.date | date: "%d/%m/%Y" }}</small>
-            </p>
-
-            <a href="{{ post.url | prepend: site.baseurl }}"
-               class="btn btn-dark btn-purple active"
-               role="button">
-              Veja mais
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
+      {% include post-card.html post=post %}
     </article>
   {% endif %}
 {% endfor %}

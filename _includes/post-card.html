@@ -1,0 +1,47 @@
+<div class="card">
+
+  <div class="row">
+
+    {% if post.thumbnail %}
+
+    <div class="col-4">
+      <img class="card-img-top" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+    </div>
+
+    <div class="col-8">
+
+      {% else %}
+
+      <div class="col">
+
+        {% endif %}
+
+
+        <h5 class="card-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </h5>
+
+        <p class="card-text">
+        {% if post.brief %}
+          {{ post.brief }}
+        {% else %}
+          {{ post.content | strip_html | truncatewords: 50 }}
+        {% endif %}
+
+        <br>
+        <small>{{ post.date | date: "%d/%m/%Y" }}</small>
+        </p>
+
+        <a href="{{ post.url | prepend: site.baseurl }}"
+           class="btn btn-dark btn-ipb active"
+           role="button">
+          Veja mais
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+

@@ -1,0 +1,36 @@
+.navbar {
+  background: $green-ipb !important;
+  color: #ffffff;
+
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 800;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    background: #ffffff;
+    color: $green-ipb;
+    font-weight: 700;
+
+    border-radius: 5px;
+  }
+
+  .logo-ipb-text {
+    font-size: 20px;
+    font-family: 'ZapfHumanistBT', sans-serif;
+  }
+
+  .logo-ipb-image {
+    max-width: 70px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    .logo-ipb-text {
+      font-size: 25px;
+    }
+  }
+}

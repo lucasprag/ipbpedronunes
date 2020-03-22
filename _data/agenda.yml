@@ -1,36 +1,78 @@
+- month: Março
+  items:
+    - 01 – Niver SAF
+    - 06 – Oração – (SAF) – P.Nunes
+    - 14 – Niver UPA
+    - 14 – ORE (FED/UMP)
+    - 27 – ReuniUPA
+    - 28 – Trab. p/Familia
+    - 29 – EBD no Parque
+- month: Abril
+  items:
+    - 04 – Projeto Ana (FED/SAF) – P.Nunes 10hs
+    - 12 – Culto da Ressurreição 7hs
+    - 12 – Cantata de Páscoa
+    - 18 – Gincana Bíblica (FED/SAF) Boturussú
+    - 24 – Projeto Ana/SAF
+    - 25 – Programação de Missões
+- month: Maio
+  items:
+    - 01 – PiqueNique (UPA)
+    - 02 – Trab. para Família
+    - 10 – Dia das mães (UPA/Depto Inf)
+    - 16 – Gincana Crianças
+    - 22 – Projeto Ana/SAF
+    - 24 – Cantina (UPA)
+    - 30 – Projeto Ana (FED/SAF) Aymoré
+    - 31 – Almoço da Família (SAF)
+- month: Junho
+  items:
+    - 06 – Cantina SAF
+    - 19 – ReuniUPA –20hs
+    - 20 – Trab. Para Família
+    - 26 – Projeto Ana/SAF
+- month: Julho
+  items:
+    - 03 – Projeto Ana/SAF
+    - 11 – CineUPA
+    - 13 a 19 – EBF
+    - 25 – Trab. Para Missões
+    - 25 – PREM League – (FED/UMP/UPA)
 - month: Agosto
   items:
-    - Início dos ensaios para o Natal.
-    - 03 – trabalho especial para família (Jonatas e Larissa)
-    - 09 – Niver IPB (RUI BARBOSA)
-    - 10 – Paz no Vale (Anhangabaú)
-    - 10 – RO/PREM
-    - 17 – Culto ao ar livre FED/UPA
-    - 17 – Projeto Ana (são miguel)
-    - 24 – Aniversário SAF/AIMORÉ
+    - 01 – Festa das Nações
+    - 09 – Dia dos Pais
+    - 15 – Programa para Família
+    - 21 – Projeto Ana/SAF
+    - 22 – Niver SAF/Aymoré
+    - 29 – Impacto Evangelístico
 - month: Setembro
+  more: Mês de Aniversário da Igreja
   items:
-    - Aniversário da Igreja (34 anos)
-    - 06-08 – Acampamento FED/UPA
-    - 14 – Projeto Ana
-    - 14 – Trabalho especial para família (Jonatas/Larissa)
-    - 21 – POS ACAMPA/UPA
+    - 11 e 12 – Acampadentro Depto Infantil
+    - 12 – ORE (FED/UMP)
+    - 18 – ReuniUPA
+    - 19 – Trab. De Missões
+    - 25 – Projeto Ana/SAF
 - month: Outubro
   items:
-    - 05 – Gincana Bíblica SAF
-    - 12 – Trabalho especial para crianças (presentes – sorteio entre os irmãos)
-    - 19 - Trabalho especial para família (Jonatas e Larissa)
-    - 26 – Zona Leste tem Jeito
+    - 03 – Intercambio FED/SAF
+    - 17 – Progr. Depto Infantil
+    - 24 – Zona Leste
+    - 31 – Passeio de Confraternização (Igreja)
 - month: Novembro
   items:
-    - 03 – EBD/CONJUNTO (P.NUNES)
-    - 09 – Cantina da UPA
-    - 16 – REC/UPA (Ermelino)
-    - 30 - Trabalho especial para família (Jonatas e Larissa)
+    - 01 – Passeio de Confraternização (Igreja)
+    - 02 - Passeio de Confraternização (Igreja)
+    - 07 – Cantina UPA
+    - 13 – Projeto Ana/SAF
+    - 22 – Trab. Missões
+    - 28 – Congresso Eletivo (FED/SAF)
 - month: Dezembro
   items:
-    - Culto encerramento UPA
-    - 08 – culto das primícias (SAF)
-    - 22 – Cantata de Natal
-    - 31 – Culto de encerramento do ano
-
+    - 05 – Congresso (FED/UMP)
+    - 06 – Culto das Primícias
+    - 12 – Confraternização (UPA)
+    - 19 – Confraternização (SAF)
+    - 25 – Natal
+    - 31 – Culto de Encerramento

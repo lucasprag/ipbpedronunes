@@ -1,13 +1,68 @@
-@import 'external/reset';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+@import url('/assets/ZapfHumanistBT.ttf');
+@import 'reset';
 
-// base
-@import 'base/constants';
-@import 'base/global';
+// variables
+$green-ipb: #0F3D29; // IPB
+$light-gray: #F5F6F8;
 
 // includes
-@import 'includes/welcome';
-@import 'includes/navbar';
-@import 'includes/footer';
-@import 'includes/posts';
-@import 'includes/posts_card';
+@import 'welcome';
+@import 'navbar';
+@import 'footer';
+@import 'posts';
+@import 'sidebar';
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: $light-gray;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+a, a.page-link {
+  color: $green-ipb;
+  text-decoration: none;
+}
+
+a:hover, a:active, a.page-link:hover, a.page-link:active {
+  color: $green-ipb;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $green-ipb;
+}
+
+.btn-ipb {
+  background-color: $green-ipb !important;
+}
+
+.bg-ipb {
+  background-color: $green-ipb !important;
+}
+
+.text-white {
+  .blockquote-footer {
+    color: #ffffff !important;
+  }
+}
+
+.card {
+  background: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+
+  .card-title {
+    font-size: 22px;
+    border-bottom: $light-gray 1px solid;
+  }
+}
