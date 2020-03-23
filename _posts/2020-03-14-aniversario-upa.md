@@ -2,7 +2,7 @@
 layout: post
 title: Aniversário da UPA
 date: 2020-03-14
-categories: infantil
+categories: upa
 brief: Essa moçada está de parabéns! Continuem sempre seguindo o caminho de Cristo =)
 author: lucas
 thumbnail: sal-e-luz.jpg

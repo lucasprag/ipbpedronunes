@@ -2,7 +2,7 @@
 layout: post
 title: Dia das mães na igreja
 date: 2019-05-12
-categories: aconteceu
+categories: saf
 brief: Feliz dia das mães e que Deus abençoe todas as mães! E ainda teve jantar na igreja.
 author: luiz
 thumbnail: dia-das-maes.jpg

@@ -2,9 +2,10 @@
 layout: post
 title:  Uma família no Natal
 date:   2014-12-25
-categories: aconteceu teatro
+categories: teatro
 brief: É uma peça de ficção sobre a família dos donos da estalagem onde Jesus nasceu.
 author: lucas
+thumbnail: uma-familia-no-natal.jpg
 ---
 
 <img src="{{ site.baseurl }}/assets/images/posts/peça-natal-2014.jpg" alt="{{ post.title }}" style="width: 100%" />

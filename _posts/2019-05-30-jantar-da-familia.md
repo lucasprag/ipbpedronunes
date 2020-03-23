@@ -2,7 +2,7 @@
 layout: post
 title: Jantar da Família
 date: 2019-05-25
-categories: aconteceu
+categories: saf
 brief: No mês da família tivemos um jantar muito especial na igreja
 author: luiz
 thumbnail: jantar-da-familia.jpg

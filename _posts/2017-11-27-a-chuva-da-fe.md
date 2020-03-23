@@ -5,6 +5,7 @@ date: 2017-11-27
 categories: destaque escola
 brief: Em uma zona rural havia uma igreja.
 author: lucas
+thumbnail: a-chuva-da-fe.jpg
 ---
 
 <div class="text-center">

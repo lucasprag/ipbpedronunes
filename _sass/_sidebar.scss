@@ -1,5 +1,16 @@
 .sidebar {
+  .nav-pills .nav-link:hover,
   .nav-pills .nav-link.active {
+    color: #ffffff;
     background: $green-ipb;
+  }
+
+  .card-social-networks {
+    font-size: 30px;
+
+    a {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
   }
 }

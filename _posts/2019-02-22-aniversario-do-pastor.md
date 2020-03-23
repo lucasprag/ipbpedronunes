@@ -2,7 +2,7 @@
 layout: post
 title: Aniversário do Pastor Luiz Barreto
 date: 2019-02-22
-categories: aconteceu
+categories: saf
 brief: A SAF fez uma surpresa em comemoração ao aniversário do Pastor
 author: lucas
 thumbnail: aniversario-do-pastor.jpg
