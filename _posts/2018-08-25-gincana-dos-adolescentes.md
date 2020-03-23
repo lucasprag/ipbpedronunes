@@ -2,7 +2,7 @@
 layout: post
 title: Gincana de UPAs
 date: 2018-08-25
-categories: aconteceu photos upa
+categories: upa
 brief: As UPAs se uniram e competiram em diversos jogos.
 author: lucas
 thumbnail: gincana-dos-adolescentes.jpg
