@@ -3,7 +3,7 @@ layout: post
 title: Culto via live no Facebook em meio a uma pandemia
 date: 2020-03-22
 categories: mensagem
-brief: Nosso Deus é maior que qualquer pandemia, precisamos evitar abrir a igreja, mas isso não significa ficar sem louvar e ouvir a mensagem de Deus
+brief: Nosso Deus é maior que qualquer pandemia, precisamos evitar abrir a igreja, mas isso não significa ficar sem louvar e ouvir a mensagem de Deus.
 author: lucas
 thumbnail: culto-via-live.jpg
 ---

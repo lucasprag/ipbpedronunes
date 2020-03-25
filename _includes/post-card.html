@@ -5,7 +5,7 @@
     {% if post.thumbnail %}
 
     <div class="col-12 col-lg-4">
-      <img class="rounded card-img-top mb-3" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+      <img class="rounded card-img-top mb-3 mb-md-0" src="{{ site.baseurl }}/assets/images/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
     </div>
 
     <div class="col">
@@ -16,26 +16,25 @@
 
         {% endif %}
 
-
         <h5 class="card-title">
           <a href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
         </h5>
 
-        <p class="card-text">
+        <p class="card-text mb-0">
+        <small>{{ post.date | date: "%d/%m/%Y" }}</small> -
+
         {% if post.brief %}
           {{ post.brief }}
         {% else %}
           {{ post.content | strip_html | truncatewords: 50 }}
         {% endif %}
 
-        <br>
-        <small>{{ post.date | date: "%d/%m/%Y" }}</small>
         </p>
 
         <a href="{{ post.url | prepend: site.baseurl }}"
-           class="btn btn-dark btn-ipb active"
+           class="btn btn-dark btn-ipb mt-2"
            role="button">
           Veja mais
         </a>

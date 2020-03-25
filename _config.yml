@@ -7,7 +7,7 @@ lang: pt_BR
 baseurl: ""
 url: "https://ipbpedronunes.org"
 
-paginate: 8
+paginate: 10
 paginate_path: "/page/:num/"
 
 markdown: kramdown

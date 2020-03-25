@@ -2,6 +2,12 @@
 layout: default
 ---
 
-{% include posts.html %}
+{% for post in paginator.posts %}
+  <article class="include-posts">
+    {% include post-card.html post=post %}
+  </article>
+{% endfor %}
+
+{% include pagination.html %}
 
 {% include venha-nos-conhecer.html %}

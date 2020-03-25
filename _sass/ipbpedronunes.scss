@@ -5,6 +5,7 @@
 // variables
 $green-ipb: #0F3D29; // IPB
 $light-gray: #F5F6F8;
+$gray: #999999;
 
 // includes
 @import 'welcome';
@@ -64,5 +65,13 @@ h1, h2, h3, h4, h5, h6 {
   .card-title {
     font-size: 22px;
     border-bottom: $light-gray 1px solid;
+    padding-left: 5px;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+    color: $gray;
+    margin-bottom: 10px;
+    padding-left: 5px;
   }
 }
