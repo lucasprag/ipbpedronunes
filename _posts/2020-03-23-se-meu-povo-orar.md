@@ -3,14 +3,14 @@ layout: post
 title: Se meu povo orar
 date: 2020-03-23
 categories: emanuel
-brief: Essa é uma música linda feita pelo grupo Expressão Vocal e que cantamos na igreja em 2017, mas que nos diz exatamente o que fazer nesses tempos de pandamia, não é mesmo?
+brief: Essa é uma música linda feita pelo grupo Expressão Vocal e que cantamos na igreja em 2017, mas que nos diz exatamente o que fazer nesses tempos de pandemia, não é mesmo?
 author: lucas
 thumbnail: se-meu-povo-orar.jpg
 ---
 <div class="card">
 <h5 class="my-3">Coral Emanuel cantando Se Meu Povo Orar</h5>
 
-Essa é uma música linda feita pelo grupo Expressão Vocal e que cantamos na igreja em 2017, mas que nos diz exatamente o que fazer nesses tempos de pandamia, não é mesmo?
+Essa é uma música linda feita pelo grupo Expressão Vocal e que cantamos na igreja em 2017, mas que nos diz exatamente o que fazer nesses tempos de pandemia, não é mesmo?
 
 <blockquote class="blockquote">
   <p>
