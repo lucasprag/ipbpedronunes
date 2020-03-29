@@ -1,0 +1,18 @@
+---
+title: List of all events
+permalink: /api/agenda.json
+---
+
+{
+  "data": [
+    {% for item in site.data.agenda %}
+    {
+      "month": "{{ item.month }}",
+      "more": "{{item.more}}",
+      "items": "{{item.items | jsonify}}",
+      ]
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

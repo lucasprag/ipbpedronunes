@@ -1,0 +1,22 @@
+---
+title: List of all posts
+permalink: /api/posts.json
+---
+{
+  "data": [
+    {% for post in site.posts %}
+      {
+        "date": "{{ post.date }}",
+        "title": "{{ post.title }}",
+        "content": "{{ post.content }}",
+        "content": "{{ post.brief }}",
+        "tags": "{{ post.tags | jsonify }}",
+        "categories": "{{ post.categories | jsonify }}",
+        "url": "{{ post.url }}",
+        "slug": "{{ post.slug }}"
+        "image": "{{ site.url }}/assets/images/posts/thumbnails/{{ post.thumbnail }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
