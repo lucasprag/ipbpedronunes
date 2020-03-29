@@ -1,0 +1,15 @@
+---
+title: List of all birthdays
+permalink: /api/birthdays.json
+---
+
+{
+  "data": [
+    {% for item in site.data.birthdays %}
+    {
+      "month": "{{ item.month }}",
+      "people": {{item.people | jsonify}}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
