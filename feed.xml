@@ -15,9 +15,11 @@
       <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
       {% endif %}
       <description>{{ post.content | xml_escape }}</description>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <brief>{{ post.brief }}</brief>
+      <thumbnail>{{ site.url }}/assets/images/posts/thumbnails/{{ post.thumbnail }}</thumbnail>
+      <date>{{ post.date | date_to_rfc822 }}</date>
       <link>{{ site.url }}{{ post.url }}</link>
-      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <id isPermaLink="true">{{ site.url }}{{ post.url }}</id>
     </item>
     {% endfor %}
   </channel>
