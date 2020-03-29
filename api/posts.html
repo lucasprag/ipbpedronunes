@@ -8,8 +8,8 @@ permalink: /api/posts.json
       {
         "date": "{{ post.date }}",
         "title": "{{ post.title }}",
-        "content": "{{ post.content }}",
-        "content": "{{ post.brief }}",
+        "content": "{{ post.content | jsonify }}",
+        "content": "{{ post.brief | jsonify }}",
         "tags": "{{ post.tags | jsonify }}",
         "categories": "{{ post.categories | jsonify }}",
         "url": "{{ post.url }}",
