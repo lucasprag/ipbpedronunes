@@ -4,7 +4,7 @@ permalink: /api/posts.json
 ---
 {
   "data": [
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
       {
         "date": "{{ post.date }}",
         "title": "{{ post.title }}",
