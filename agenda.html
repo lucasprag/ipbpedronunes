@@ -17,9 +17,10 @@ title: <i class="fas fa-book-open"></i> Agenda 2020
     </h3>
 
     <ul class="list-group mb-4">
-      {% for line in item.items %}
+      {% for event in item.items %}
       <li class="list-group-item d-flex justify-content-between align-items-center">
-        {{line}}
+        {{event.title}}
+        <span class="badge bg-ipb text-white badge-pill">{{event.day}}</span>
       </li>
       {% endfor %}
     </ul>

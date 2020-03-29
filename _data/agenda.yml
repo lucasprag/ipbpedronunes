@@ -1,78 +1,135 @@
 - month: Março
   items:
-    - 01 – Niver SAF
-    - 06 – Oração – (SAF) – P.Nunes
-    - 14 – Niver UPA
-    - 14 – ORE (FED/UMP)
-    - 27 – ReuniUPA
-    - 28 – Trab. p/Familia
-    - 29 – EBD no Parque
+    - title: Niver SAF
+      day: 01
+    - title: Oração - (SAF) - P.Nunes
+      day: 06
+    - title: Niver UPA
+      day: 14
+    - title: ORE (FED/UMP)
+      day: 14
+    - title: Reunião UPA
+      day: 27
+    - title: Trabalho para Familia
+      day: 28
+    - title: EBD no Parque
+      day: 29
 - month: Abril
   items:
-    - 04 – Projeto Ana (FED/SAF) – P.Nunes 10hs
-    - 12 – Culto da Ressurreição 7hs
-    - 12 – Cantata de Páscoa
-    - 18 – Gincana Bíblica (FED/SAF) Boturussú
-    - 24 – Projeto Ana/SAF
-    - 25 – Programação de Missões
+    - title: Projeto Ana (FED/SAF) - P.Nunes 10hs
+      day: 04
+    - title: Culto da Ressurreição 7hs
+      day: 12
+    - title: Cantata de Páscoa
+      day: 12
+    - title: Gincana Bíblica (FED/SAF) Boturussú
+      day: 18
+    - title: Projeto Ana/SAF
+      day: 24
+    - title: Programação de Missões
+      day: 25
 - month: Maio
   items:
-    - 01 – PiqueNique (UPA)
-    - 02 – Trab. para Família
-    - 10 – Dia das mães (UPA/Depto Inf)
-    - 16 – Gincana Crianças
-    - 22 – Projeto Ana/SAF
-    - 24 – Cantina (UPA)
-    - 30 – Projeto Ana (FED/SAF) Aymoré
-    - 31 – Almoço da Família (SAF)
+    - title: PiqueNique (UPA)
+      day: 01
+    - title: Trab. para Família
+      day: 02
+    - title: Dia das mães (UPA/Depto Inf)
+      day: 10
+    - title: Gincana Crianças
+      day: 16
+    - title: Projeto Ana/SAF
+      day: 22
+    - title: Cantina (UPA)
+      day: 24
+    - title: Projeto Ana (FED/SAF) Aymoré
+      day: 30
+    - title: Almoço da Família (SAF)
+      day: 31
 - month: Junho
   items:
-    - 06 – Cantina SAF
-    - 19 – ReuniUPA –20hs
-    - 20 – Trab. Para Família
-    - 26 – Projeto Ana/SAF
+    - title: Cantina SAF
+    - day: 06
+    - title: ReuniUPA -20hs
+      day: 19
+    - title: Trab. Para Família
+      day: 20
+    - title: Projeto Ana/SAF
+      day: 26
 - month: Julho
   items:
-    - 03 – Projeto Ana/SAF
-    - 11 – CineUPA
-    - 13 a 19 – EBF
-    - 25 – Trab. Para Missões
-    - 25 – PREM League – (FED/UMP/UPA)
+    - title: Projeto Ana/SAF
+      day: 03
+    - title: CineUPA
+      day: 11
+    - title: EBF
+      day: 13 a 19
+    - title: Trab. Para Missões
+      day: 25
+    - title: PREM League – (FED/UMP/UPA)
+      day: 25
 - month: Agosto
   items:
-    - 01 – Festa das Nações
-    - 09 – Dia dos Pais
-    - 15 – Programa para Família
-    - 21 – Projeto Ana/SAF
-    - 22 – Niver SAF/Aymoré
-    - 29 – Impacto Evangelístico
+    - title: Festa das Nações
+      day: 01
+    - title: Dia dos Pais
+      day: 09
+    - title: Programa para Família
+      day: 15
+    - title: Projeto Ana/SAF
+      day: 21
+    - title: Niver SAF/Aymoré
+      day: 22
+    - title: Impacto Evangelístico
+      day: 29
 - month: Setembro
   more: Mês de Aniversário da Igreja
   items:
-    - 11 e 12 – Acampadentro Depto Infantil
-    - 12 – ORE (FED/UMP)
-    - 18 – ReuniUPA
-    - 19 – Trab. De Missões
-    - 25 – Projeto Ana/SAF
+    - title: Acampadentro Depto Infantil
+      day: 11 e 12
+    - title: ORE (FED/UMP)
+      day: 12
+    - title: ReuniUPA
+      day: 18
+    - title: Trab. De Missões
+      day: 19
+    - title: Projeto Ana/SAF
+      day: 25
 - month: Outubro
   items:
-    - 03 – Intercambio FED/SAF
-    - 17 – Progr. Depto Infantil
-    - 24 – Zona Leste
-    - 31 – Passeio de Confraternização (Igreja)
+    - title: Intercambio FED/SAF
+      day: 03
+    - title: Progr. Depto Infantil
+      day: 17
+    - title: Zona Leste
+      day: 24
+    - title: Passeio de Confraternização (Igreja)
+      day: 31
 - month: Novembro
   items:
-    - 01 – Passeio de Confraternização (Igreja)
-    - 02 - Passeio de Confraternização (Igreja)
-    - 07 – Cantina UPA
-    - 13 – Projeto Ana/SAF
-    - 22 – Trab. Missões
-    - 28 – Congresso Eletivo (FED/SAF)
+    - title: Passeio de Confraternização (Igreja)
+      day: 01
+    - title: Passeio de Confraternização (Igreja)
+      day: 02
+    - title: Cantina UPA
+      day: 07
+    - title: Projeto Ana/SAF
+      day: 13
+    - title: Trab. Missões
+      day: 22
+    - title: Congresso Eletivo (FED/SAF)
+      day: 28
 - month: Dezembro
   items:
-    - 05 – Congresso (FED/UMP)
-    - 06 – Culto das Primícias
-    - 12 – Confraternização (UPA)
-    - 19 – Confraternização (SAF)
-    - 25 – Natal
-    - 31 – Culto de Encerramento
+    - title: Congresso (FED/UMP)
+      day: 05
+    - title: Culto das Primícias
+      day: 06
+    - title: Confraternização (UPA)
+      day: 12
+    - title: Confraternização (SAF)
+      day: 19
+    - title: Natal
+      day: 25
+    - title: Culto de Encerramento
+      day: 31

@@ -9,7 +9,7 @@ permalink: /api/agenda.json
     {
       "month": "{{ item.month }}",
       "more": "{{item.more}}",
-      "items": "{{item.items | jsonify}}",
+      "items": {{item.items | jsonify}},
       ]
     }
     {% unless forloop.last %},{% endunless %}
