@@ -8,7 +8,7 @@ baseurl: ""
 url: "https://ipbpedronunes.org"
 
 paginate: 10
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page:num/"
 
 markdown: kramdown
 plugins:
@@ -28,7 +28,7 @@ authors:
 
   milton:
     name: Pr. Milton Santos
-    bio: Presbítero e professor da Escola Dominical.
+    bio: Presbítero.
     photo: milton.jpg
 
   luiz:
