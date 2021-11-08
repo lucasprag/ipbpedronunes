@@ -2,12 +2,36 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-  <article class="include-posts">
-    {% include post-card.html post=post %}
-  </article>
-{% endfor %}
+{% include welcome.html %}
 
-{% include pagination.html %}
+<header>
+  <h1><i class="far fa-newspaper"></i> Avisos</h1>
+</header>
+
+<hr>
+
+<section class="card">
+
+  <div class="list-group">
+    <div class="list-group-item mb-3" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Nhoque para a arrecadação da perna do Fábio 💪</h5>
+        <small>7 de Novembro de 2021</small>
+      </div>
+      <p class="mb-1">Encomende já o seu Nhoque de Batata para <b>retirar no dia 13 de Novembro</b>!</p>
+    </div>
+  </div>
+
+  <div class="list-group">
+    <div class="list-group-item" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Voltamos com a Escola Dominical <b>presencial</b>. 🎉</h5>
+        <small>7 de Novembro de 2021</small>
+      </div>
+      <p class="mb-1">Participe com a gente todo domingo às 9h30 da manhã e também culto verpertino às 19h!</p>
+    </div>
+  </div>
+
+</section>
 
 {% include venha-nos-conhecer.html %}
